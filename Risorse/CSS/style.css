@@ -147,6 +147,7 @@ main > section:first-child > div {
 /* FAQ Section */
 #faqSec {
     min-height: 21rem;
+    margin-bottom: 8rem;
 }
 
 #faqSec > h2 {
@@ -154,3 +155,34 @@ main > section:first-child > div {
 }
 
 /******** FOOTER STYLE ********/
+
+footer {
+    width: 100%;
+    background-color: black;
+    min-height: 29rem;
+    padding: 3% 0 2%;
+}
+
+#footerLink {
+    max-width: 65%;
+    margin: 5rem auto 0;
+}
+
+#footerLink > div {
+    min-height: 17.5rem;
+    margin-bottom: 5%;
+}
+
+#footerLink > div > div {
+    width: calc(100% / 5);
+    background-color: rgb(66, 62, 62) ;
+}
+
+#footerLink > hr {
+    width: 10%;
+    margin-bottom: 5%;
+}
+
+footer small {
+    margin: 5% 0;
+}

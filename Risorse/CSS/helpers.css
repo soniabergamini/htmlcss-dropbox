@@ -21,7 +21,7 @@
 .vw100 {width: 100vw;}
 .wid100Perc {width: 100%;}
 .boxPad {padding: 2.5rem;}
-.border {border: 1px solid black;}
+.border {border: 1px solid grey;}
 
 /* UTILITY | hover */
 .fontBigHov:hover {font-size: 18px;}
