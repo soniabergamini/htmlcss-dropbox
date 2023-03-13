@@ -82,7 +82,7 @@ main > section:first-child > div {
     background-color: aliceblue;
 }
 
-#findPartnerSec>div:last-child {
+#findPartnerSec > div:last-child {
     width: 40%;
     background-color: antiquewhite;
     min-height: 25rem;
@@ -111,10 +111,6 @@ main > section:first-child > div {
 }
 
 /* Sponsor Section */
-#sponsorSec {
-    width: 100%;
-}
-
 #sponsorSec > div {
     width: calc(100% / 3);
     height: calc(100vw / 3);
@@ -125,5 +121,28 @@ main > section:first-child > div {
     width: calc(100% / 2);
     aspect-ratio: 1 / 1;
 }
+
+/* Free Trial CTA Section */
+#freeTrialSec {
+    background-color: var(--lightblue);
+    min-height: 17rem;
+    margin-bottom: 8rem;
+}
+
+#freeTrialSec > div {
+    min-width: 50rem;
+    min-height: 5rem;
+}
+
+#freeTrialSec > div > div:first-child {
+    width: 60%;
+    background-color: aliceblue;
+}
+
+#freeTrialSec > div > div:last-child {
+    width: 40%;
+    background-color: antiquewhite;
+}
+
 
 /******** FOOTER STYLE ********/
