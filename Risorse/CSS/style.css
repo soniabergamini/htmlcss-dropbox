@@ -144,5 +144,13 @@ main > section:first-child > div {
     background-color: antiquewhite;
 }
 
+/* FAQ Section */
+#faqSec {
+    min-height: 21rem;
+}
+
+#faqSec > h2 {
+    padding-bottom: 3rem;
+}
 
 /******** FOOTER STYLE ********/
