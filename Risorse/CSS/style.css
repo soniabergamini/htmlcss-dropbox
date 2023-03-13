@@ -89,6 +89,10 @@ main > section:first-child > div {
 }
 
 /* Dropbox Business Operations Section */
+#operationsSec {
+    margin-bottom: 10rem;
+}
+
 #operationsSec > div > div {
     width: calc( 100% / 3 - 10px);
     margin-bottom: 1rem;
@@ -96,8 +100,14 @@ main > section:first-child > div {
     background-color: beige;
 }
 
+/* Find More Section */
+#findMoreSec {
+    min-height: 9rem;
+}
 
-
+#findMoreSec > h2 {
+    margin-bottom: 4rem;
+}
 
 
 /******** FOOTER STYLE ********/
