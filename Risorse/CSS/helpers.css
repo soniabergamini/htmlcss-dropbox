@@ -31,9 +31,3 @@
     text-transform: uppercase;
 }
 
-/* UTILITY | centratura */
-.boxCtr {
-    max-width: 69.4rem; /* 1110px su 1536px */
-    margin: 0 auto;
-}
-

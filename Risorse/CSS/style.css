@@ -2,12 +2,9 @@
 :root {
     --lightblue: #B4D0E7;
     --blueCTA: #0061FF;
-    /* background-color: var(--blueCTA); */
 }
 
-body {
-    font-family: 'Hanken Grotesk', sans-serif;
-}
+body {font-family: 'Hanken Grotesk', sans-serif;}
 
 * {
     box-sizing: border-box;
@@ -24,19 +21,82 @@ header div {
     min-height: 4rem;
 }
 
-/* 590px la hero section height */
-
 /******** MAIN STYLE ********/
+
+/* Hero Section */
 main > section:first-child {
     background-color: var(--lightblue);
     min-height: 36.8rem;
+    margin-bottom: 8rem;
 }
 
 main > section:first-child > div {
-    max-width: 62.5rem; 
+    max-width: 65%; /* 1000px su 1536px */
     margin: 5rem auto 0;
     min-height: 31.8rem;
 }
+
+/* Main Sections */
+.boxCtr {
+    max-width: 50rem; /* 800px su 1536px */
+    margin: 0 auto;
+}
+
+/* Dropbox Business Plans Section */
+#businessPlans {
+    margin-bottom: 2.5rem;
+}
+
+#businessPlans > section > div {
+    width: calc(100% / 3 - 2.5rem);
+    min-height: 47.5rem;
+    background-color: yellowgreen;
+}
+
+/* Dropbox Enterpise Plan Section */
+#enterprisePlanSec {
+    margin-bottom: 8rem;
+}
+
+.enterprisePlan > div {
+    background-color: yellowgreen;
+    min-height: 12rem;
+    padding: 1rem;
+}
+
+.enterprisePlan > div:first-child {
+    width: 60%;
+}
+
+.enterprisePlan>div:last-child {
+    width: 40%;
+}
+
+/* Find Partner Section */
+#findPartnerSec {
+    margin-bottom: 8rem;
+}
+
+#findPartnerSec > div:first-child {
+    width: 60%;
+    background-color: aliceblue;
+}
+
+#findPartnerSec>div:last-child {
+    width: 40%;
+    background-color: antiquewhite;
+    min-height: 25rem;
+}
+
+/* Dropbox Business Operations Section */
+#operationsSec > div > div {
+    width: calc( 100% / 3 - 10px);
+    margin-bottom: 1rem;
+    min-height: 25rem;
+    background-color: beige;
+}
+
+
 
 
 
