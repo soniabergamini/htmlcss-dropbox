@@ -1,0 +1,38 @@
+/* FLEX CONTAINERS HELPERS */
+.flex {display: flex;}
+.spaceBtw {justify-content: space-between;}
+.spaceARN {justify-content: space-around;}
+.alignCtr {align-items: center;}
+.justyCtr {justify-content: center;}
+.flexwrap {flex-wrap: wrap;}
+.directRR {flex-direction: row-reverse;}
+
+/* POSITION & TRANSITION HELPERS */
+.secTrans {transition: 0.6s;}
+.posFixed {position: fixed;}
+.posRelative {position: relative;}
+.posAbsolute {position: absolute;}
+
+/* GENERIC UTILITIES */
+.txtWhite {color: white;}
+.txtRed {color: red;}
+.cursor {cursor: pointer;}
+.txtAlignCtr {text-align: center;}
+.vw100 {width: 100vw;}
+.wid100Perc {width: 100%;}
+.boxPad {padding: 2.5rem;}
+
+/* UTILITY | hover */
+.fontBigHov:hover {font-size: 18px;}
+.changeColRedHov:hover {color: red;}
+.txtUnderUpperHov:hover {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+/* UTILITY | centratura */
+.boxCtr {
+    max-width: 69.4rem; /* 1110px su 1536px */
+    margin: 0 auto;
+}
+

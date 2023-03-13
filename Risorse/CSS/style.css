@@ -1,0 +1,23 @@
+/******** GENERAL STYLE ********/
+:root {
+    --lightblue: #B4D0E7;
+    --blueCTA: #0061FF;
+}
+
+body {
+    /* font-family: 'Open Sans', sans-serif;  */
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {text-decoration: none;}
+
+/******** HEADER STYLE ********/
+
+/******** MAIN STYLE ********/
+
+/******** FOOTER STYLE ********/
