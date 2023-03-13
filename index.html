@@ -45,8 +45,8 @@
                         <p>Annula in qualsiasi momento</p>
                         <a href="#businessPlans"><i class="fa-solid fa-arrow-down"></i></a>
                     </div>
-                    <div class="contentHero">
-                        <img class="posRelative" src="./Risorse/img/jumbo.png" alt="hero-section-img">
+                    <div class="contentHero posRelative">
+                        <img class="posAbsolute" src="./Risorse/img/jumbo.png" alt="hero-section-img">
                     </div>
                 </div>
             </div>
@@ -54,8 +54,15 @@
     <!-- Main Sections -->
         <!-- Dropbox Business Plans -->
         <section id="businessPlans" class="border boxCtr">
-            <h2>Titolo</h2>
-            <p>Pulsanti</p>
+            <h2>Trova il piano che fa per te</h2>
+            <label class="radioLabel posRelative">Fatturazione mensile
+                <input type="radio" checked="checked" name="radio">
+                <span class="cursor checkmark posAbsolute"></span>
+            </label>
+            <label class="radioLabel posRelative">Fatturazione annuale
+                <input type="radio" name="radio">
+                <span class="cursor checkmark posAbsolute"></span>
+            </label>
             <section class="border flex spaceBtw">
                 <div class="border">A</div>
                 <div class="border">B</div>
