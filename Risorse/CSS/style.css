@@ -12,13 +12,39 @@ body {font-family: 'Hanken Grotesk', sans-serif;}
     margin: 0;
 }
 
-/* a {text-decoration: none;} */
+a {text-decoration: none;}
 
 /******** HEADER STYLE ********/
+header {
+    box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+
 header div {
-    background-color: pink;
     width: 30%;
     min-height: 4rem;
+}
+
+header img {
+    height: 1.2rem;
+}
+
+header a {
+    color: grey;
+    font-size: 0.8em;
+}
+
+header button {
+    background-color: var(--blueCTA);
+    padding: 1% 3%;
+    border: 1px solid var(--blueCTA);
+    font-size: 1em;
+}
+
+header button:hover {
+    background-color: #0062ffb5;
 }
 
 /******** MAIN STYLE ********/
@@ -32,7 +58,7 @@ main > section:first-child {
 
 main > section:first-child > div {
     max-width: 65%; /* 1000px su 1536px */
-    margin: 5rem auto 0;
+    margin: 9rem auto 0;
     min-height: 31.8rem;
 }
 

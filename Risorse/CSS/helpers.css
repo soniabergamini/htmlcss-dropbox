@@ -18,6 +18,7 @@
 .txtRed {color: red;}
 .cursor {cursor: pointer;}
 .txtAlignCtr {text-align: center;}
+.txtVertAlignMid {vertical-align: middle;}
 .vw100 {width: 100vw;}
 .wid100Perc {width: 100%;}
 .boxPad {padding: 2.5rem;}
