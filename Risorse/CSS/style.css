@@ -2,10 +2,11 @@
 :root {
     --lightblue: #B4D0E7;
     --blueCTA: #0061FF;
+    /* background-color: var(--blueCTA); */
 }
 
 body {
-    /* font-family: 'Open Sans', sans-serif;  */
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 
 * {
@@ -17,6 +18,12 @@ body {
 a {text-decoration: none;}
 
 /******** HEADER STYLE ********/
+header div {
+    background-color: pink;
+    width: 30%;
+    min-height: 4rem;
+}
+
 
 /******** MAIN STYLE ********/
 
