@@ -12,7 +12,7 @@ body {font-family: 'Hanken Grotesk', sans-serif;}
     margin: 0;
 }
 
-a {text-decoration: none;}
+/* a {text-decoration: none;} */
 
 /******** HEADER STYLE ********/
 header div {
@@ -103,11 +103,27 @@ main > section:first-child > div {
 /* Find More Section */
 #findMoreSec {
     min-height: 9rem;
+    margin-bottom: 8rem;
 }
 
 #findMoreSec > h2 {
     margin-bottom: 4rem;
 }
 
+/* Sponsor Section */
+#sponsorSec {
+    width: 100%;
+}
+
+#sponsorSec > div {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+    background-color: aquamarine;
+}
+
+#sponsorSec > div:first-child > div , #sponsorSec>div:last-child>div {
+    width: calc(100% / 2);
+    aspect-ratio: 1 / 1;
+}
 
 /******** FOOTER STYLE ********/
