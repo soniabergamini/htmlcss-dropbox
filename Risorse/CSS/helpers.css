@@ -3,6 +3,7 @@
 .spaceBtw {justify-content: space-between;}
 .spaceARN {justify-content: space-around;}
 .alignCtr {align-items: center;}
+.alignStart {align-items: flex-start;}
 .justyCtr {justify-content: center;}
 .flexwrap {flex-wrap: wrap;}
 .directRR {flex-direction: row-reverse;}
