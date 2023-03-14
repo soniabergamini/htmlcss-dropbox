@@ -108,7 +108,7 @@ h1 {
     margin: 0 auto; /* 9rem auto? da vedere alla fine. */
 }
 
-#enterprisePlanSec, #findPartnerSec, #freeTrialSec, #faqSec {
+#enterprisePlanSec, #findPartnerSec, #freeTrialSec, #faqSec , #findMoreSec , #operationsSec {
     margin-bottom: 8rem;
 }
 
@@ -204,7 +204,7 @@ h2 {
     padding: 2.5rem 2rem;
 }
 
-#findPartnerSec p {
+#findPartnerSec p , #operationsSec p {
     margin-top: 1rem;
 }
 
@@ -218,21 +218,14 @@ h2 {
 }
 
 /* Dropbox Business Operations Section */
-#operationsSec {
-    margin-bottom: 10rem;
-}
-
 #operationsSec > div > div {
-    width: calc( 100% / 3 - 10px);
-    margin-bottom: 1rem;
-    min-height: 25rem;
-    background-color: beige;
+    width: calc( 100% / 3 - 1.4rem);
+    margin-bottom: 3rem;
 }
 
 /* Find More Section */
 #findMoreSec {
     min-height: 9rem;
-    margin-bottom: 8rem;
 }
 
 #findMoreSec > h2 {
