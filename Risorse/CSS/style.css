@@ -19,7 +19,6 @@ a {
 
 /******** HEADER STYLE ********/
 header {
-    box-shadow: 0px 1px 6px 1px rgba(0, 0, 0, 0.3);
     background-color: white;
     top: 0;
     left: 0;
@@ -41,6 +40,10 @@ header a {
 
 button a {
     font-size: smaller;
+}
+ 
+p {
+    font-size: .9rem;
 }
 
 .blueButton {
@@ -103,6 +106,10 @@ h1 {
 .boxCtr {
     max-width: 50rem; /* 800px su 1536px */
     margin: 0 auto; /* 9rem auto? da vedere alla fine. */
+}
+
+#enterprisePlanSec, #findPartnerSec, #freeTrialSec, #faqSec {
+    margin-bottom: 8rem;
 }
 
 /* Dropbox Business Plans Section */
@@ -175,10 +182,6 @@ h2 {
 }
 
 /* Dropbox Enterpise Plan Section */
-#enterprisePlanSec {
-    margin-bottom: 8rem;
-}
-
 .enterprisePlan > div:first-child {
     width: 70%;
 }
@@ -192,19 +195,26 @@ h2 {
 }
 
 /* Find Partner Section */
-#findPartnerSec {
-    margin-bottom: 8rem;
-}
-
 #findPartnerSec > div:first-child {
     width: 60%;
-    background-color: aliceblue;
 }
 
 #findPartnerSec > div:last-child {
     width: 40%;
-    background-color: antiquewhite;
-    min-height: 25rem;
+    padding: 2.5rem 2rem;
+}
+
+#findPartnerSec p {
+    margin-top: 1rem;
+}
+
+#findPartnerSec button {
+    padding: .6rem .75rem;
+    margin-top: 1rem;
+    border: 1px solid grey;
+    color: black;
+    background-color: white;
+    font-size: 1rem;
 }
 
 /* Dropbox Business Operations Section */
@@ -246,7 +256,6 @@ h2 {
 #freeTrialSec {
     background-color: var(--lightblue);
     min-height: 17rem;
-    margin-bottom: 8rem;
 }
 
 #freeTrialSec > div {
@@ -267,7 +276,6 @@ h2 {
 /* FAQ Section */
 #faqSec {
     min-height: 21rem;
-    margin-bottom: 8rem;
 }
 
 #faqSec > h2 {

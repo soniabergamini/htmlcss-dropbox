@@ -8,11 +8,12 @@
 .flexwrap {flex-wrap: wrap;}
 .directRR {flex-direction: row-reverse;}
 
-/* POSITION & TRANSITION HELPERS */
-.secTrans {transition: 0.6s;}
+/* POSITION, TRANSITION & DISPLAY HELPERS */
+.secTrans {transition: 0.8s;}
 .posFixed {position: fixed;}
 .posRelative {position: relative;}
 .posAbsolute {position: absolute;}
+.displayBlock {display: block;}
 
 /* GENERIC UTILITIES */
 .txtWhite {color: white;}
@@ -21,16 +22,17 @@
 .txtBlueCTA {color: var(--blueCTA);}
 .txtSmall {font-size: small;}
 .txtUnderline {text-decoration: underline;}
-.cursor {cursor: pointer;}
 .txtAlignCtr {text-align: center;}
 .txtVertAlignMid {vertical-align: middle;}
+.cursor {cursor: pointer;}
 .listStyleNone {list-style-type: none;}
 .vw100 {width: 100vw;}
 .wid100Perc {width: 100%;}
 .boxPad {padding: 1.16rem;}
-.border {border: 0.5px solid grey;}
+.border {border: 0.5px solid rgba(128, 128, 128, 0.883);}
 .borderBottom {border-bottom: 0.5px solid grey;}
 .visHidden {visibility: hidden;}
+.boxShadow {box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);}
 
 /* UTILITY | hover */
 .fontBigHov:hover {font-size: 18px;}
