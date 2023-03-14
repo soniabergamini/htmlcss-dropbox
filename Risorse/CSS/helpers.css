@@ -37,6 +37,7 @@
 
 /* UTILITY | hover */
 .fontBigHov:hover {font-size: 18px;}
+.txtUnderHov:hover {text-decoration: underline;}
 .changeColBlueHov:hover {color: var(--blueCTA);}
 .txtUnderUpperHov:hover {
     text-decoration: underline;

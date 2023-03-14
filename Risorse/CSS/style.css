@@ -167,8 +167,8 @@ h2 {
     margin: .8rem 0;
 }
 
-#businessPlansSec ul:nth-child(4) {
-    margin-top: 15%;
+#businessPlansSec ul:nth-child(4) , footer ul {
+    margin-top: 13%;
 }
 
 #businessPlansSec li {
@@ -347,23 +347,18 @@ h2 {
 footer {
     width: 100%;
     background-color: black;
-    min-height: 29rem;
-    padding: 3% 0 2%;
+    padding: 6% 0 2%;
 }
 
 #footerLink {
     max-width: 65%;
-    margin: 5rem auto 0;
-}
-
-#footerLink > div {
-    min-height: 17.5rem;
-    margin-bottom: 5%;
+    margin: 0 auto;
+    padding: 0 2rem;
 }
 
 #footerLink > div > div {
     width: calc(100% / 5);
-    background-color: rgb(66, 62, 62) ;
+    padding-bottom: 5.5rem;
 }
 
 #footerLink > hr {
@@ -371,6 +366,10 @@ footer {
     margin-bottom: 5%;
 }
 
-footer small {
-    margin: 5% 0;
+footer li {
+    margin-bottom: 10px;
+}
+
+footer i {
+    padding-right: 3px;
 }
