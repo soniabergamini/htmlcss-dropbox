@@ -27,14 +27,14 @@
 .listStyleNone {list-style-type: none;}
 .vw100 {width: 100vw;}
 .wid100Perc {width: 100%;}
-.boxPad {padding: 8%;}
+.boxPad {padding: 1.16rem;}
 .border {border: 0.5px solid grey;}
 .borderBottom {border-bottom: 0.5px solid grey;}
 .visHidden {visibility: hidden;}
 
 /* UTILITY | hover */
 .fontBigHov:hover {font-size: 18px;}
-.changeColRedHov:hover {color: red;}
+.changeColBlueHov:hover {color: var(--blueCTA);}
 .txtUnderUpperHov:hover {
     text-decoration: underline;
     text-transform: uppercase;

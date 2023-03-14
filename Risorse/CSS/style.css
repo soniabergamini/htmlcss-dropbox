@@ -14,7 +14,7 @@ body {font-family: 'Hanken Grotesk', sans-serif;}
 
 a {
     text-decoration: none;
-    font-size: 0.8em;
+    font-size: 1vw; /* invece di font-size: 0.8em; perché più responsive */
 }
 
 /******** HEADER STYLE ********/
@@ -37,6 +37,10 @@ header img {
 
 header a {
     margin: 0 2%;
+}
+
+button a {
+    font-size: smaller;
 }
 
 .blueButton {
@@ -91,7 +95,8 @@ h1 {
 }
 
 .contentHero > img {
-    width: 140%; 
+    width: 140%;
+    top: 5px; 
 }
 
 /* Main Sections */
@@ -141,18 +146,18 @@ h2 {
     width: calc(100% / 3 - 2rem);
 }
 
-#businessPlansSec i {
+#businessPlansSec i , #enterprisePlanSec i {
     font-size: .75rem;
     left: -0.3rem;
     top: 0.3rem;
 }
 
 .priceBox {
-    padding: 2%;
+    padding: 0.29rem;
 }
 
-#businessPlansSec p , .priceButton {
-    margin: 6% 0;
+#businessPlansSec p , .priceButton , #enterprisePlanSec p {
+    margin: .8rem 0;
 }
 
 #businessPlansSec ul:nth-child(4) {
@@ -174,18 +179,16 @@ h2 {
     margin-bottom: 8rem;
 }
 
-.enterprisePlan > div {
-    background-color: yellowgreen;
-    min-height: 12rem;
-    padding: 1rem;
-}
-
 .enterprisePlan > div:first-child {
-    width: 60%;
+    width: 70%;
 }
 
-.enterprisePlan>div:last-child {
-    width: 40%;
+#enterprisePlanSec p:last-child {
+    margin-top: 3.4rem;
+}
+
+.enterprisePlan > div:last-child {
+    width: 30%;
 }
 
 /* Find Partner Section */
@@ -233,7 +236,8 @@ h2 {
     background-color: aquamarine;
 }
 
-#sponsorSec > div:first-child > div , #sponsorSec>div:last-child>div {
+#sponsorSec > div:first-child > div , 
+#sponsorSec > div:last-child > div {
     width: calc(100% / 2);
     aspect-ratio: 1 / 1;
 }
