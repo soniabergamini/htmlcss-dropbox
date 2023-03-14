@@ -63,18 +63,22 @@ p {
 main > section:first-child {
     background-color: var(--lightblue);
     font-size: 14px;
+    padding-top: 8rem;
+}
+
+#heroBox {
+    top: 4rem;
 }
 
 main > section:first-child > div {
     max-width: 65%; /* 1000px su 1536px */
-    margin: 8rem 27% 0 19%;
-    padding: 1% 2%;
+    max-height: 41rem;
+    margin: 0 27% 0 19%;
 }
 
 h1 {
     font-size: 3.75rem;
     font-weight: 900;
-    margin-bottom: 1rem;
 }
 
 .contentHero:first-child {
@@ -86,11 +90,11 @@ h1 {
 }
 
 .contentHero > button {
-    margin: 8% 0;
+    margin: 7% 0;
 }
 
 .contentHero > p:nth-child(3) {
-    margin-bottom: 10%;
+    margin-bottom: 9%;
 }
 
 .contentHero > a:last-child {
@@ -98,8 +102,7 @@ h1 {
 }
 
 .contentHero > img {
-    width: 140%;
-    top: 5px; 
+    width: 39.5rem; 
 }
 
 /* Main Sections */
