@@ -21,14 +21,14 @@
         <nav class="flex spaceBtw alignCtr">
             <div class="flex alignCtr spaceARN">
                 <img src="./Risorse/img/logo-small.png" alt="logo-dropbox" class="cursor">
-                <a href="#" class="txtUnderUpperHov">Perché Dropbox</a>
-                <a href="#" class="txtUnderUpperHov">Funzioni</a>
-                <a href="#" class="txtUnderUpperHov">Piani e Prezzi</a>
+                <a href="#" class="txtUnderUpperHov txtGrey">Perché Dropbox</a>
+                <a href="#" class="txtUnderUpperHov txtGrey">Funzioni</a>
+                <a href="#" class="txtUnderUpperHov txtGrey">Piani e Prezzi</a>
             </div>
             <div class="flex alignCtr spaceARN">
-                <a href="#" class="txtUnderUpperHov">Supporto</a>
-                <a href="#" class="txtUnderUpperHov">Contatta l'ufficio vendite</a>
-                <a href="#" class="txtUnderUpperHov">Accedi</a>
+                <a href="#" class="txtUnderUpperHov txtGrey">Supporto</a>
+                <a href="#" class="txtUnderUpperHov txtGrey">Contatta l'ufficio vendite</a>
+                <a href="#" class="txtUnderUpperHov txtGrey">Accedi</a>
                 <button class="cursor fontBigHov blueButton"><a href="#" class="txtWhite">Inizia</a></button>
             </div>
         </nav>
@@ -43,7 +43,7 @@
                         <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente. </p>
                         <button class="cursor fontBigHov blueButton"><a href="#" class="txtWhite">Inizia la tua prova gratuita</a></button>
                         <p>Annula in qualsiasi momento</p>
-                        <a href="#businessPlans"><i class="fa-solid fa-arrow-down"></i></a>
+                        <a href="#businessPlans" class="txtBlack"><i class="fa-solid fa-arrow-down"></i></a>
                     </div>
                     <div class="contentHero posRelative">
                         <img class="posAbsolute" src="./Risorse/img/jumbo.png" alt="hero-section-img">
@@ -53,20 +53,151 @@
         </section>
     <!-- Main Sections -->
         <!-- Dropbox Business Plans -->
-        <section id="businessPlans" class="border boxCtr">
-            <h2>Trova il piano che fa per te</h2>
+        <section id="businessPlansSec" class="boxCtr">
+            <h2 id="businessPlans">Trova il piano business che fa per te</h2>
+            <!-- Radio Button -->
             <label class="radioLabel posRelative">Fatturazione mensile
-                <input type="radio" checked="checked" name="radio">
+                <input type="radio" checked="checked" name="radio" class="visHidden">
                 <span class="cursor checkmark posAbsolute"></span>
             </label>
             <label class="radioLabel posRelative">Fatturazione annuale
-                <input type="radio" name="radio">
+                <input type="radio" name="radio" class="visHidden">
                 <span class="cursor checkmark posAbsolute"></span>
             </label>
-            <section class="border flex spaceBtw">
-                <div class="border">A</div>
-                <div class="border">B</div>
-                <div class="border">C</div>
+            <!-- Box Plans Section -->
+            <section class="flex spaceBtw">
+                <!-- Professional Plan: Box with all Details -->
+                <div class="border">
+                    <div class="txtAlignCtr borderBottom priceBox">
+                        <i class="fa-solid fa-user"></i>
+                        <small>Singolo</small>
+                    </div>
+                    <div class="boxPad">
+                        <h3>Professional</h3>
+                        <p class="txtSmall"><strong>€ 12.00</strong></p>
+                        <p class="txtSmall txtGrey">/mese</p>
+                        <ul class="listStyleNone">
+                            <li class="posRelative">
+                                <i class="fa-solid fa-user posAbsolute txtSmall"></i>
+                                <small> 1 utente</small>
+                            </li>
+                            <li class="posRelative">
+                                <i class="fa-solid fa-folder posAbsolute txtSmall"></i>
+                                <small> 5 TB di spazio di archiviazione sicuro</small>
+                            </li>
+                            <li class="posRelative">
+                                <i class="fa-solid fa-share-nodes posAbsolute txtSmall"></i>
+                                <small> Funzioni di produttività premium e condivisione file semplice e sicura</small>
+                            </li>
+                        </ul>
+                        <button class="cursor blueButton priceButton wid100Perc"><a href="#" class="txtWhite">Prova gratis per 30 giorni</a></button>
+                        <p class="txtSmall">oppure <a href="#" class="txtSmall txtUnderline">acquista ora</a></p>
+                        <hr class="txtGrey">
+                        <p class="txtSmall"><strong>Punti salienti del piano</strong></p>
+                        <ul class="listStyleNone">
+                            <li class="posRelative">
+                                <i class="fa-solid fa-check posAbsolute txtSmall txtBlueCTA"></i>
+                                <small> Invia file fino a 100 GB con Dropbox Transfert</small>
+                            </li>
+                            <li class="posRelative">
+                                <i class="fa-solid fa-check posAbsolute txtSmall txtBlueCTA"></i>
+                                <small> Cartelle offline su dispostivi mobili</small>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Advanced Plan: Box with all Details -->
+                <div class="border">
+                    <div class="txtAlignCtr borderBottom priceBox">
+                        <i class="fa-solid fa-users"></i>
+                        <small>Team</small>
+                    </div>
+                    <div class="boxPad">
+                        <h3>Advanced</h3>
+                        <p class="txtSmall"><strong>€ 18.00</strong></p>
+                        <p class="txtSmall txtGrey">/utente/mese</p>
+                        <ul class="listStyleNone">
+                            <li class="posRelative">
+                                <i class="fa-solid fa-users posAbsolute txtSmall"></i>
+                                <small> 3 o più utenti</small>
+                            </li>
+                            <li class="posRelative">
+                                <i class="fa-solid fa-folder posAbsolute txtSmall"></i>
+                                <small> Tutto lo spazio di cui ha bisogno il tuo team</small>
+                            </li>
+                            <li class="posRelative">
+                                <i class="fa-solid fa-share-nodes posAbsolute txtSmall"></i>
+                                <small> Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</small>
+                            </li>
+                        </ul>
+                        <button class="cursor blueButton priceButton wid100Perc"><a href="#" class="txtWhite">Prova gratis per 30 giorni</a></button>
+                        <p class="txtSmall">oppure <a href="#" class="txtSmall txtUnderline">acquista ora</a></p>
+                        <hr class="txtGrey">
+                        <p class="txtSmall"><strong>Punti salienti del piano</strong></p>
+                        <ul class="listStyleNone">
+                            <li class="posRelative">
+                                <i class="fa-solid fa-check posAbsolute txtSmall txtBlueCTA"></i>
+                                <small> Nessun limite di spazio per i file</small>
+                            </li>
+                            <li class="posRelative">
+                                <i class="fa-solid fa-check posAbsolute txtSmall txtBlueCTA"></i>
+                                <small> Cartelle offline su dispostivi mobili</small>
+                            </li>
+                            <li class="posRelative">
+                                <i class="fa-solid fa-check posAbsolute txtSmall txtBlueCTA"></i>
+                                <small> Risparmio del 50% rispetto alle iscrizioni singole</small>
+                            </li>
+                            <li class="posRelative">
+                                <i class="fa-solid fa-check posAbsolute txtSmall txtBlueCTA"></i>
+                                <small> Possibilità di inserire nuovi memebri del team</small>
+                            </li>
+                            <li class="posRelative">
+                                <i class="fa-solid fa-check posAbsolute txtSmall txtBlueCTA"></i>
+                                <small> Gestione dei permessi in base ai ruoli</small>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Enterprise Plan: Box with all Details -->
+                <div class="border">
+                    <div class="txtAlignCtr borderBottom priceBox">
+                        <i class="fa-solid fa-building"></i>
+                        <small>Azienda</small>
+                    </div>
+                    <div class="boxPad">
+                        <h3>Enterprise</h3>
+                        <p class="txtSmall"><strong>Contattaci</strong></p>
+                        <p class="txtSmall txtGrey visHidden">/mese</p>
+                        <ul class="listStyleNone">
+                            <li class="posRelative">
+                                <i class="fa-solid fa-user posAbsolute txtSmall"></i>
+                                <small> 10 o più utenti</small>
+                            </li>
+                            <li class="posRelative">
+                                <i class="fa-solid fa-folder posAbsolute txtSmall"></i>
+                                <small> Soluzioni personalizzabili per la tua azienda</small>
+                            </li>
+                            <li class="posRelative">
+                                <i class="fa-solid fa-share-nodes posAbsolute txtSmall"></i>
+                                <small> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</small>
+                            </li>
+                        </ul>
+                        <button class="cursor blueButton priceButton wid100Perc"><a href="#" class="txtWhite">Contattaci</a></button>
+                        <p class="txtSmall">oppure <a href="#" class="txtSmall txtUnderline">acquista ora</a></p>
+                        <hr class="txtGrey">
+                        <p class="txtSmall"><strong>Punti salienti del piano</strong></p>
+                        <ul class="listStyleNone">
+                            <li class="posRelative">
+                                <i class="fa-solid fa-check posAbsolute txtSmall txtBlueCTA"></i>
+                                <small> Invia file fino a 100 GB con Dropbox Transfert</small>
+                            </li>
+                            <li class="posRelative">
+                                <i class="fa-solid fa-check posAbsolute txtSmall txtBlueCTA"></i>
+                                <small> Cartelle offline su dispostivi mobili</small>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </section>
         </section>
         <!-- Dropbox Enterpise Plan -->
