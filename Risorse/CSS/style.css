@@ -225,11 +225,7 @@ h2 {
 
 /* Find More Section */
 #findMoreSec {
-    min-height: 9rem;
-}
-
-#findMoreSec > h2 {
-    margin-bottom: 4rem;
+    padding-right: 20%;
 }
 
 /* Sponsor Section */
