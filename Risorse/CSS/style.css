@@ -176,7 +176,7 @@ h2 {
     padding-left: 8%;
 }
 
-#businessPlansSec hr {
+#businessPlansSec hr , #sponsorBoxView hr {
     width: 20%;
     margin: 1.5rem 0;
 }
@@ -204,7 +204,7 @@ h2 {
     padding: 2.5rem 2rem;
 }
 
-#findPartnerSec p , #operationsSec p {
+#findPartnerSec p , #operationsSec p , #sponsorBoxView p {
     margin-top: 1rem;
 }
 
@@ -232,13 +232,57 @@ h2 {
 #sponsorSec > div {
     width: calc(100% / 3);
     height: calc(100vw / 3);
-    background-color: aquamarine;
 }
 
 #sponsorSec > div:first-child > div , 
 #sponsorSec > div:last-child > div {
     width: calc(100% / 2);
     aspect-ratio: 1 / 1;
+}
+
+.sponsorBox img , .sponsorBox2 img {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sponsorBox:nth-child(1) {
+    background-color: #A2D39B;
+    border: 1rem solid #D1E9CE;
+}
+
+.sponsorBox:nth-child(2) {
+    background-color: #61082B;
+}
+
+.sponsorBox:nth-child(3) {
+    background-color: #0093CE;
+}
+
+.sponsorBox:nth-child(4) {
+    background-color: #FF1C1C;
+}
+
+#sponsorBoxView {
+    padding: 3.5rem;
+    background-color: #F5F5F5;
+    overflow-y: scroll;
+}
+
+.sponsorBox2:nth-child(1) {
+    background-color: #D5011F;
+}
+
+.sponsorBox2:nth-child(2) {
+    background-color: var(--lightblue);
+}
+
+.sponsorBox2:nth-child(3) {
+    background-color: #0E2481;
+}
+
+.sponsorBox2:nth-child(4) {
+    background-color: #FFD831;
 }
 
 /* Free Trial CTA Section */
