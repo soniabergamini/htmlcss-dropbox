@@ -119,7 +119,7 @@ h1 {
 }
 
 h2 {
-    margin-bottom: 7%;
+    margin-bottom: 3rem;
     font-size: 2rem;
 }
 
@@ -215,6 +215,10 @@ h2 {
     color: black;
     background-color: white;
     font-size: 1rem;
+}
+
+#findPartnerSec button:hover {
+    padding: .7rem 1.5rem;
 }
 
 /* Dropbox Business Operations Section */
@@ -318,16 +322,28 @@ h2 {
 }
 
 /* FAQ Section */
-#faqSec {
-    min-height: 21rem;
+.faqRow {
+    padding: 3% 0;
+    border-bottom: 1px solid gray;
 }
 
-#faqSec > h2 {
-    padding-bottom: 3rem;
+.faqRow i {
+    right: 1rem;
+    top: 1.6rem;
+}
+
+.faqRow p {
+    margin: 0.6rem 0;
+    visibility: collapse;
+}
+
+.faqRow:active p {
+    visibility: visible;
+    position: relative;
+    color: black;
 }
 
 /******** FOOTER STYLE ********/
-
 footer {
     width: 100%;
     background-color: black;
