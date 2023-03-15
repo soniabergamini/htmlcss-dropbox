@@ -332,7 +332,6 @@ h2 {
 
 .faqRow p {
     margin: 0.6rem 0;
-    visibility: collapse;
 }
 
 .faqRow:active p {

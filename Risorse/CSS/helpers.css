@@ -16,7 +16,7 @@
 .posAbsolute {position: absolute;}
 .displayBlock {display: block;}
 
-/* GENERIC UTILITIES */
+/* UTILITY | Customize text  */
 .txtWhite {color: white;}
 .txtGrey {color: grey;}
 .txtBlack {color: black;}
@@ -25,8 +25,14 @@
 .txtUnderline {text-decoration: underline;}
 .txtAlignCtr {text-align: center;}
 .txtVertAlignMid {vertical-align: middle;}
+
+/* GENERIC UTILITIES */
 .cursor {cursor: pointer;}
 .listStyleNone {list-style-type: none;}
+.visHidden {visibility: hidden;}
+.boxShadow {box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);}
+
+/* UTILITY | Width, Padding, Border, Margin */
 .vw100 {width: 100vw;}
 .wid100Perc {width: 100%;}
 .wid50Perc {width: 50%;}
@@ -34,8 +40,6 @@
 .marginBottom8 {margin-bottom: 8rem !important;}
 .border {border: 0.5px solid rgba(128, 128, 128, 0.883);}
 .borderBottom {border-bottom: 0.5px solid grey;}
-.visHidden {visibility: hidden;}
-.boxShadow {box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);}
 
 /* UTILITY | hover */
 .fontBigHov:hover {font-size: 18px;}
@@ -46,4 +50,3 @@
     text-decoration: underline;
     text-transform: uppercase;
 }
-
