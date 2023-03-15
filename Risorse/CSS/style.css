@@ -28,7 +28,6 @@ header div {
     min-width: calc(100vw / 3);
     min-height: 4rem;
     padding: 1%;
-    gap: .5em;
     font-size: clamp(.82rem, 1vw, 1.13rem);
 }
 
