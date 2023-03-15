@@ -14,7 +14,6 @@ body {font-family: 'Hanken Grotesk', sans-serif;}
 
 a {
     text-decoration: none;
-    font-size: 1vw; /* invece di font-size: 0.8em; perché più responsive */
 }
 
 /******** HEADER STYLE ********/
@@ -26,31 +25,25 @@ header {
 }
 
 header div {
-    width: 30%;
+    min-width: calc(100vw / 3);
     min-height: 4rem;
+    padding: 1%;
+    gap: .5em;
+    font-size: clamp(.82rem, 1vw, 1.13rem);
 }
 
 header img {
-    height: 1.2rem;
-}
-
-header a {
-    margin: 0 2%;
+    height: 1.2em;
 }
 
 button a {
-    font-size: smaller;
-}
- 
-p {
-    font-size: .9rem;
+    font-size: .8rem; /* 13px circa */
 }
 
 .blueButton {
     background-color: var(--blueCTA);
-    padding: 5px 11px;
+    padding: .4rem .7rem;
     border: 1px solid var(--blueCTA);
-    font-size: 1rem;
 }
 
 .blueButton:hover {
@@ -79,6 +72,10 @@ main > section:first-child > div {
 h1 {
     font-size: 3.75rem;
     font-weight: 900;
+}
+
+p {
+    font-size: .9rem;
 }
 
 .contentHero:first-child {
@@ -349,19 +346,18 @@ h2 {
 
 /******** FOOTER STYLE ********/
 footer {
-    width: 100%;
     background-color: black;
     padding: 6% 0 2%;
 }
 
 #footerLink {
-    max-width: 65%;
+    max-width: 70%;
     margin: 0 auto;
     padding: 0 2rem;
 }
 
 #footerLink > div > div {
-    width: calc(100% / 5);
+    width: calc(100% / 5 -1em);
     padding-bottom: 5.5rem;
 }
 
