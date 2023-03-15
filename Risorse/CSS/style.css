@@ -54,7 +54,6 @@ button a {
 /* Hero Section */
 main > section:first-child {
     background-color: var(--lightblue);
-    font-size: 14px;
     padding-top: 8rem;
 }
 
@@ -64,17 +63,16 @@ main > section:first-child {
 
 main > section:first-child > div {
     max-width: 65%; /* 1000px su 1536px */
-    max-height: 41rem;
     margin: 0 27% 0 19%;
 }
 
 h1 {
-    font-size: 3.75rem;
+    font-size: clamp(2.9rem, 4vw, 3.75rem); 
     font-weight: 900;
 }
 
-p {
-    font-size: .9rem;
+#heroBox p {
+    font-size: clamp(.85rem, 1vw, 0.95rem);
 }
 
 .contentHero:first-child {
@@ -107,8 +105,8 @@ p {
     margin: 0 auto; /* 9rem auto? da vedere alla fine. */
 }
 
-#enterprisePlanSec, #findPartnerSec, #freeTrialSec, #faqSec , #findMoreSec , #operationsSec {
-    margin-bottom: 8rem;
+p {
+    font-size: .9rem;
 }
 
 /* Dropbox Business Plans Section */
@@ -352,7 +350,7 @@ footer {
 #footerLink {
     max-width: 70%;
     margin: 0 auto;
-    padding: 0 2rem;
+    padding: 0 1%;
 }
 
 #footerLink > div > div {
@@ -366,9 +364,9 @@ footer {
 }
 
 footer li {
-    margin-bottom: 10px;
+    margin-bottom: 10%;
 }
 
 footer i {
-    padding-right: 3px;
+    padding-right: 0.5%;
 }

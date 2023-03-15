@@ -31,6 +31,7 @@
 .wid100Perc {width: 100%;}
 .wid50Perc {width: 50%;}
 .boxPad {padding: 1.16rem;}
+.marginBottom8 {margin-bottom: 8rem !important;}
 .border {border: 0.5px solid rgba(128, 128, 128, 0.883);}
 .borderBottom {border-bottom: 0.5px solid grey;}
 .visHidden {visibility: hidden;}
