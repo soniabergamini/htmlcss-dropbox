@@ -225,6 +225,10 @@ h2 {
     margin-bottom: 3rem;
 }
 
+#operationsSec {
+    scroll-margin-top: 4rem;
+}
+
 /* Find More Section */
 #findMoreSec {
     padding-right: 20%;
@@ -338,6 +342,11 @@ h2 {
     visibility: visible;
     position: relative;
     color: black;
+}
+
+.faqRow:active i {
+    transform: rotate(180deg);
+    transition: 1s;
 }
 
 /******** FOOTER STYLE ********/
